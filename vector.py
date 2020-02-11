@@ -51,7 +51,7 @@ class Point(ObjectOf3):
 
 class Vector(ObjectOf3):
     def __str__(self) -> str:
-        return "/{}\\\n|{}|\n\\{}/".format(self.x1, self.x2, self.x3)
+        return "[{}  {}  {}]".format(self.x1, self.x2, self.x3)
 
     @property
     def point(self):
